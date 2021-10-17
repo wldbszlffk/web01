@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to Jiyun's web</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        *{front-family: "맑은 고딕", arial, helvetica, sans-serif;}
+        body{max-width: 980px;
+        margin: 0 auto ;}
+        header h1 {display: inline;}
+        header img {height: 100px;}
+        ul {list-style: none;}
+        a{text-decoration: none; }
+        nav ul {
+            text-align: center; border-top: 2px solid #008B8B;
+            border-bottom: 2px solid #008B8B; padding: 15px 10px;
+        }
+        nav ul li:hover{
+            background-color: #008B8B;
+        }
+        nav li a:hover{
+            color: bisque;
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/다운로드.jpg" alt="me" style="display: block; margin-left: 430px;">
+        <h1 style="margin-left: 400px ;">Jiyun Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="w3-container">
+     <article class="main">
+        <div id="photo" class="w3-center">
+            <img src="./images/IMG_0204.jpg" classs="w3-border w3-padding" alt="me" style="display:block; margin: 0 auto; width: 600px; height: 495px; border: 10px solid ivory;">
+            <br>
+            <hr>
+               <img src="./images/시디.jpg" style="display: block; margin-left: 450px ; width: 75px; height: 75px;"><h2 style="margin-left: 30px;">My Favorite Music</h2>
+               <iframe width="600" height="495" style="display: block; margin: 0 auto; width: 600px; height: 495px; border: 10px solid ivory;" src="https://www.youtube.com/embed/IgPcbE--mMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+                <img src="./images/최종.jpg" style="display: block; margin-left: 420px; width: 130px; height: 130px;"><h2 style="margin-left: 45px;">MY Favorite Drama Scene</h2>
+                <iframe width="600" height="495" style="display: block; margin: 0 auto; width: 600px; height: 495px; border: 10px solid ivory;" src="https://www.youtube.com/embed/j0174TkAg1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        <div id="profile">
+            <h2>Jiyun profile</h2>
+            <table class="w3-table-all w3-hoverable">
+                <tr class="w3-indigo">
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>구분</th>
+                </tr>
+                <tr>
+                    <td>현재</td>
+                    <td>동아대학교 경영정보학과 재학</td>
+                    <td>2학년</td>
+                </tr>
+                <tr>
+                    <td>20.9~20.12</td>
+                    <td>프로그래밍언어</td>
+                    <td>이수</td>
+                </tr>
+                <tr>
+                    <td>21.3~21.8</td>
+                    <td>웹프로그래밍</td>
+                    <td>이수 중</td>
+                </tr>
+            </table>
+      </div>
+      <br><br>
+    </article>
+     <aside class="right" class="w3-container">
+     <div id="link" class="w3-container w3-margin-bottom">
+            <h2>즐겨찾기</h2>
+            <!-- 문서간의 이동 -->
+            <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a><br>
+            <a href="http://www.naver.com" target="_self">네이버</a><br>
+            <a href="start.html">start페이지이동</a><br>
+            <!-- 문서내 이동 -->
+            <a href="#photo"> 사진으로 이동</a>
+        </div>
+        <div id="login" class="w3-container">
+            <h2>로그인</h2>
+            <form action="#" method="POST" class="w3-container">
+                아이디 : <input type="text" name="name" class="w3-input"> <br>
+                비밀번호 : <input type="password" name="pass" id="pass" class="w3-input"> <br>
+                <input type="submit" value="확인" class="w3-btn w3-indigo">
+                <input type="reset" value="취소" class="w3-btn w3-indigo">
+            </form>
+    </div>
+    </aside>
+    </section>
+    <footer class="w3-gray w3-container w3-text-white w3-margin-bottom"> 
+        &copy; Jiyun <br>
+        email : wldbszlffk11@naver.com<br>
+        SNS : <i class="fa fa-facebook-square" style="font-size: 24px;"></i>
+        <i class="fa fa-instagram" style="font-size: 24px;"></i>
+    
+    </footer>
+</body>
+</html>
